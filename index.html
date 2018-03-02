@@ -4,8 +4,18 @@
     <title>Hello World!</title>
   </head>
   <body>
+    <button id="hhh">dianwoya!</button>
+    <button id="blur">blur!</button>
+    <button id="focus">focus!</button>
+    <button id="frameless">frameless!</button>
     <h1>Hello World!</h1>
     We are using io.js <script>document.write(process.version)</script>
     and Electron <script>document.write(process.versions['electron'])</script>.
+
+    <script type="text/javascript">
+      require('./child_process/btn.js')
+      require('./child_process/window_blur.js')
+      require('./child_process/frameless.js')
+    </script>
   </body>
 </html>
