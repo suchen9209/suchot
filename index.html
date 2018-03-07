@@ -4,18 +4,15 @@
     <title>Hello World!</title>
   </head>
   <body>
-    <button id="hhh">dianwoya!</button>
-    <button id="blur">blur!</button>
-    <button id="focus">focus!</button>
-    <button id="frameless">frameless!</button>
-    <h1>Hello World!</h1>
-    We are using io.js <script>document.write(process.version)</script>
-    and Electron <script>document.write(process.versions['electron'])</script>.
-
+    <div>
+      <h1>请选择底板</h1>
+      <button id="select-pic">打开图片...</button>
+      <div id="selected-file"></div>
+      <button id="edit-pic">处理图片</button>
+    </div>
     <script type="text/javascript">
-      require('./child_process/btn.js')
-      require('./child_process/window_blur.js')
-      require('./child_process/frameless.js')
+      require('./child_process/openpic.js')
+      require('./child_process/editpic.js')
     </script>
   </body>
 </html>
