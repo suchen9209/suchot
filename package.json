@@ -9,6 +9,6 @@
       "electron-prebuilt": "^1.2.0",
       "electron": "9.1.0",
       "gm":"1.23.1",
-      "canvas":"1.6.9"
+      "canvas":"2.6.1"
     }
   }
